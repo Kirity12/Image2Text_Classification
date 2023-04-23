@@ -1,4 +1,4 @@
-# Text Classification
+# Multi-Modal Classification Using Images and Text
 
 **Task 1: Data Loading**
 
