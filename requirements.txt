@@ -1,0 +1,10 @@
+numpy
+tensorflow
+pytesseract
+PIL
+opencv-python
+pandas
+sklearn
+nltk
+word2vec
+gensim
