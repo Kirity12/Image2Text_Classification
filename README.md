@@ -10,7 +10,6 @@ scanned documents.
 There are two main executable files present in the root directory:
 
 ● The main\_image.py file performs evaluation of the ML models after converting scanned
-
 document images into text. The resulting text is stored in parquet files and undergoes
 preprocessing and embedding extraction before being fed into the models for training
 and prediction.
@@ -20,7 +19,6 @@ Command: python main\_image.py
 Results Path: …/results/image2text\_file\_result.txt
 
 ● Main\_text.py: The main purpose of this file is to evaluate the performance of the ML
-
 models. It achieves this by first reading all the provided text files and storing them in
 parquet files for preprocessing and embeddings extraction. The resulting data is then fed
 to our models to train and predict their accuracy.
@@ -50,10 +48,6 @@ Word2Vec is used to understand the meaning of words and their relationships to o
 
 From the results, we observed that TF-IDF vectorizer performs better in extracting rich
 information from the documents for text classification when compared to the Word2Vec
-
-
-
-
 <a name="br2"></a>vectorizer. It is worth noting that the feature space of Word2Vec was selected to be just 128 less
 than that of the TF-IDF vectors, which is more than 1000. Increasing the feature space for the
 Word2Vec models might yield fruitful results. However, for the following assignment, we kept
